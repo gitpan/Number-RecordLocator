@@ -1,6 +1,6 @@
 package Number::RecordLocator;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use warnings;
 use strict;
@@ -10,7 +10,7 @@ use vars qw/%CHAR_TO_INT %INT_TO_CHAR $INITIALIZED/;
 
 =head1 NAME
 
-Number::RecordLocator - [One line description of module's purpose here]
+Number::RecordLocator - Encodes integers into a short and easy to read and pronounce "locator string"
 
 
 =head1 SYNOPSIS
@@ -117,7 +117,6 @@ sub decode {
     my $str = uc(shift);
     my $integer = 0;
     foreach my $char (split(//,$str)){
-        use YAML;
        my $char = $CHAR_TO_INT{$char};
        return undef unless defined $char;
        $integer = ($integer * 32) +   $char;
