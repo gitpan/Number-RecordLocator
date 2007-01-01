@@ -14,9 +14,9 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 3b8c0721bb7f42017fa68ab5ec8009728b184025 Changes
+SHA1 184cdb98ed972a1caecb162cd6543240b9a8296b Changes
 SHA1 272e6aa522b3e609adbbb460f9e8fde4ee478ffe MANIFEST
-SHA1 1858d75fa9bb34454575d1e79bd25da493ecbfbf META.yml
+SHA1 f7cfee2fa3cc98e04342aa1b7793804320431177 META.yml
 SHA1 62024cc5924b4de214cb42c7bb7909d7793e9102 Makefile.PL
 SHA1 e46fccd0d121d84c2ee765a08580961923fa5c27 README
 SHA1 9b2f9d83bcf77860f53a0c07c90a4a59ad9f5df1 inc/Module/Install.pm
@@ -27,14 +27,14 @@ SHA1 2249171a2b72cd73ff2c0a06597d29f86e5df456 inc/Module/Install/Makefile.pm
 SHA1 381bb98ea3877bba49ae85e7a7ea130645fd3dbf inc/Module/Install/Metadata.pm
 SHA1 0c2118868ef82ac517eb6d9c3bd93e6eb9bbf83e inc/Module/Install/Win32.pm
 SHA1 e827d6d43771032fa3df35c0ad5e5698d0e54cda inc/Module/Install/WriteAll.pm
-SHA1 d3c8f40700ecd9ba1bd6c15c793128364118a141 lib/Number/RecordLocator.pm
+SHA1 db3bdde947b612b5dc7a057854060eae7103c13a lib/Number/RecordLocator.pm
 SHA1 57e695738e1af683100d889294efe36c27a44416 t/00.load.t
 SHA1 6da39b48ce64b584e4c3274bff96fc76ff484820 t/pod-coverage.t
 SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.3 (Darwin)
 
-iD8DBQFFmYLvEi9d9xCOQEYRAoCyAJ0fMZWQbfHU3AEH7H7GjMsY1+fZrgCgpVgu
-nOqo3Xv+jE9nTZ/Qo0eZkz4=
-=cm+X
+iD8DBQFFmYN0Ei9d9xCOQEYRAhgMAKCMrlUzmxUDCD/ykhH1X/ErOa+aewCfVqva
+5BtJZSC9BktRMtCDnOoVJpA=
+=tFJg
 -----END PGP SIGNATURE-----
